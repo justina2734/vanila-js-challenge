@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="12style.css" rel="stylesheet">
+    <link href="img/uaena.png" rel="shortcut icon" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAENA ZONE</title>
+</head>
+<body>
+    <div id="all">
+        <div id="weather">
+            <span class="location"></span>
+            <span class="temperature"></span>
+        </div>
+        <div id="lyrics">
+            <span></span>
+         </div> 
+         <div id="title">
+            <span></span>
+         </div>
+        <h1 id="clock">00:00</h1>
+        <form class="login-form hidden"> 
+             <input required maxlength="8" minlength="2" type="text" placeholder="유애나 ID를 입력하세요"/>
+             <input type="submit" value="Log In"/>
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todo-form">
+            <input type="text" placeholder="할 일을 입력하세요." required/>
+        </form>
+        <ul id="todo-list"></ul>
+        <div id="countBox">
+            <h3 id="dayCount">00:00:00</h3>
+        </div>
+    </div>
+    <div id="background"></div>
+    <script src="background.js"></script>
+    <script src="clock.js"></script>
+    <script src="login.js"></script>
+    <script src="todo.js"></script>
+    <script src="geolocation.js"></script>
+    <script src="lyrics.js"></script>
+    <script src="countdown.js"></script>
+</body>
+</html>

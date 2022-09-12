@@ -1,0 +1,93 @@
+.hidden{
+    display:none;
+}
+
+img{
+    position:absolute;
+    top:0;
+    left:0;
+    max-width: 100vw;
+    width: 100vw;
+    max-height:100vh;
+    height:100vh;
+    z-index:0;
+}
+
+#all{
+    position:absolute;
+    z-index:1;
+    justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+
+#weather{
+    color: white;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+    margin-top: 3px;
+    margin-right: 25px;
+}
+
+body{
+   display: flex;
+}
+
+#lyrics{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+#title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#clock{
+    color:white;
+    font-size: 100px;
+    position: absolute;
+    margin-top: 70px; 
+    margin-left:515px;
+}
+
+.login-form {
+    position: absolute;
+    margin-top: 240px; 
+    margin-left:523px;
+}
+
+#greeting{
+    color:white;
+    position: absolute;
+    margin-top: 240px; 
+    margin-left:505px;
+    font-size:xx-large;
+}
+
+#todo-form{
+    position: absolute;
+    margin-top: 300px; 
+    margin-left:553px;
+}
+
+#todo-list{
+    color: white;
+    position: absolute;
+    margin-top: 350px; 
+    margin-left:550px;
+}
+
+#dayCount{
+    color: white;
+    position: absolute;
+    margin-top: 490px; 
+    margin-left:400px;
+}
